@@ -971,7 +971,7 @@ a:hover { color: #555; }
   margin-bottom: 1rem;
 }
 
-.cta-link {
+a.cta-link {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background-color: var(--primary-color);
