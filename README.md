@@ -1,5 +1,5 @@
 # 北陸Ruby会議02
-- https://regional.rubykaigi.org/hokuriku01/
+- https://regional.rubykaigi.org/hokuriku02/
 
 ## デプロイ
 - GitHub Pages
