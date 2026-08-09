@@ -1,16 +1,135 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>北陸Ruby会議02</title>
-  </head>
-  <body>
-    <h1>北陸Ruby会議02</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="北陸Ruby会議02" />
+    <meta property="og:description" content="北陸Ruby会議02は「発見」をテーマにした地域Ruby会議です。" />
+    <meta property="og:image" content="https://hokurikurb.github.io/hokuriku02/images/og-image.jpg" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
 
-    <p>
-      日付: 2026/11/14(Sat)<br>
-      会場: <a href="https://www.dinosaur.pref.fukui.jp/" target="_blank">福井県立恐竜博物館</a>
-    </p>
-  </body>
+    <title>北陸Ruby会議02</title>
+    <link href="./favicon.ico" rel="shortcut icon" />
+    <script src="https://kit.fontawesome.com/5057ed789e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo"><img src="images/logo-horizontal.svg" alt="北陸Ruby会議"></a>
+                <nav class="nav" id="nav">
+                    <a href="#about" class="nav-link">開催概要</a>
+                    <a href="cfp.html" class="nav-link">発表者募集</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+    <div class="hero-filter">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                  <img src="images/logo-vertical-white.svg" alt="北陸Ruby会議ロゴ"></h1>
+                <h2 class="hero-topic"><span>北陸Ruby会議02</span></h2>
+                <div class="hero-details">
+                    <div class="hero-detail">
+                        <span class="detail-label">日時</span>
+                        <span class="detail-value">2026.11.14 (Sat)</span>
+                    </div>
+                    <div class="hero-detail">
+                        <span class="detail-label">会場</span>
+                        <span class="detail-value">福井県立恐竜博物館</span>
+                    </div>
+                </div>
+                <div class="registration">
+                  <a href="cfp.html" class="cta-button-skeleton">発表者募集</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">開催概要</h2>
+            <div class="about-content">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3 class="info-title">日時</h3>
+                        <p class="info-text">2026年11月14日（土）<br>13:00 - 16:30</p>
+                    </div>
+                    <div class="info-card">
+                        <h3 class="info-title">会場</h3>
+                        <p class="info-text"><a href="https://www.dinosaur.pref.fukui.jp/" target="_blank">福井県立恐竜博物館</a> 研修室</p>
+                    </div>
+                    <div class="info-card">
+                        <h3 class="info-title">参加費</h3>
+                        <p class="info-text">無料<br>事前登録制 (準備中)</p>
+                    </div>
+                </div>
+                <p class="about-text-hashtag">
+                  SNSハッシュタグ<span>#hokurikurk02</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="organizers">
+        <div class="container">
+            <h2 class="section-title">運営</h2>
+            <div class="organizers-content">
+                <p class="organizers-text">
+                    北陸三県で活動する三つのRubyコミュニティが合同で主催・運営を行っています。<br>
+                    <small>※都道府県コード順</small>
+                </p>
+                <div class="community-logos">
+                    <div class="community-logo-item">
+                      <a href="https://toyamarb.github.io/" target="_blank">
+                        <div class="community-logo">
+                            <img src="images/logo_toyamarb.png" alt="Toyama.rb">
+                            <p class="community-name">富山: Toyama.rb</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="community-logo-item">
+                      <a href="https://kzrb.org/" target="_blank">
+                        <div class="community-logo">
+                            <img src="images/logo_kanazawarb.png" alt="Kanazawa.rb">
+                            <p class="community-name">石川: Kanazawa.rb</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="community-logo-item">
+                      <a href="https://fukuirb.connpass.com/" target="_blank">
+                        <div class="community-logo">
+                            <img src="images/logo_fukuirb.png" alt="fukui.rb">
+                            <p class="community-name">福井: fukui.rb</p>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" style="text-align: right;">
+        <p>背景画像: <a href="https://commons.wikimedia.org/wiki/File:2017_3_20_Fukui_Dinosaur_Museum_1.jpg" target="_blank">Totti / ウィキメディア・コモンズ</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></p>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; <a href="https://github.com/hokurikurb" target="_blank">hokuriku.rb</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
