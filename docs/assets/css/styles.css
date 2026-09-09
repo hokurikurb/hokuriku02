@@ -128,7 +128,7 @@ a:hover { color: #555; }
 
 /* Hero Section */
 .hero {
-  --hero-overlay: url(../../images/hero-bg-overlay.png);
+  --hero-overlay: url(../../images/hero-bg-overlay.svg);
   margin-top: 70px;
   background: url(../../images/hero-bg.jpg) center top / cover no-repeat;
   position: relative;
@@ -141,7 +141,7 @@ a:hover { color: #555; }
 }
 @media screen and (max-width: 620px) {
   .hero{
-    --hero-overlay: url(../../images/hero-bg-overlay-sp.png);
+    --hero-overlay: url(../../images/hero-bg-overlay-sp.svg);
     background: url(../../images/hero-bg.jpg) center top / cover no-repeat;
   }
 }
