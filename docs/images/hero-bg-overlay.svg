@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2000" height="1333" viewBox="0 0 2000 1333">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.079" y1="0.457" x2="0.887" y2="0.458" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d32f1e"/>
+      <stop offset="1" stop-color="#6a180f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.468" stop-color="#fff" stop-opacity="0.776"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.232" stop-color="#fff" stop-opacity="0.776"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.241" stop-color="#fff" stop-opacity="0.776"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" x1="0.079" y1="0.457" x2="0.887" y2="0.458" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d32f1e"/>
+      <stop offset="1" stop-color="#8b160a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.315" stop-color="#fff" stop-opacity="0.714"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-hero-bg-overlay">
+      <rect width="2000" height="1333"/>
+    </clipPath>
+  </defs>
+  <g id="hero-bg-overlay" clip-path="url(#clip-hero-bg-overlay)">
+    <rect id="長方形_28" data-name="長方形 28" width="758" height="1162" transform="translate(2571.658 -654.784) rotate(45)" fill="#d32f1e" opacity="0.373"/>
+    <rect id="長方形_30" data-name="長方形 30" width="707" height="707" transform="translate(-0.924 417.076) rotate(45)" fill="#aa1a0b" opacity="0.375" style="mix-blend-mode: screen;isolation: isolate"/>
+    <rect id="長方形_31" data-name="長方形 31" width="707" height="707" transform="translate(-29.924 -553.498) rotate(45)" fill="#d34536" opacity="0.147" style="mix-blend-mode: screen;isolation: isolate"/>
+    <rect id="長方形_32" data-name="長方形 32" width="758" height="1162" transform="translate(2321.158 95.216) rotate(45)" opacity="0.772" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+    <rect id="長方形_52" data-name="長方形 52" width="758" height="1162" transform="translate(1749.073 1166.216) rotate(45)" opacity="0.301" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+    <rect id="長方形_51" data-name="長方形 51" width="758" height="1162" transform="translate(499.313 917) rotate(45)" opacity="0.411" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <rect id="長方形_33" data-name="長方形 33" width="758" height="1162" transform="translate(-322.658 1238.174) rotate(-135)" opacity="0.234" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+    <rect id="長方形_34" data-name="長方形 34" width="758" height="1162" transform="translate(1571 1988.187) rotate(135)" opacity="0.382" fill="url(#linear-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+    <rect id="長方形_35" data-name="長方形 35" width="2" height="1566" transform="translate(552.391 363.149) rotate(45)" fill="url(#linear-gradient-6)"/>
+    <rect id="長方形_36" data-name="長方形 36" width="2" height="1733" transform="translate(2386.478 527.351) rotate(45)" opacity="0.807" fill="url(#linear-gradient-6)"/>
+    <rect id="長方形_38" data-name="長方形 38" width="2" height="1733" transform="translate(1199.406 1217.181) rotate(-135)" opacity="0.589" fill="url(#linear-gradient-8)"/>
+    <rect id="長方形_39" data-name="長方形 39" width="2" height="1733" transform="translate(1565 483.765) rotate(-45)" opacity="0.51" fill="url(#linear-gradient-9)"/>
+    <rect id="長方形_54" data-name="長方形 54" width="2" height="1669" transform="translate(1690.669 226.096) rotate(-135)" opacity="0.51" fill="url(#linear-gradient-9)"/>
+    <rect id="長方形_47" data-name="長方形 47" width="2" height="1704" transform="translate(1709.506 128.09) rotate(-45)" opacity="0.633" fill="url(#linear-gradient-9)"/>
+    <rect id="長方形_43" data-name="長方形 43" width="2" height="1733" transform="translate(310 728.765) rotate(-45)" opacity="0.406" fill="url(#linear-gradient-8)"/>
+    <rect id="長方形_40" data-name="長方形 40" width="2" height="1733" transform="translate(1330.062 748.889) rotate(-45)" opacity="0.523" fill="url(#linear-gradient-8)"/>
+    <rect id="長方形_45" data-name="長方形 45" width="2" height="1733" transform="translate(1413.478 501.758) rotate(45)" opacity="0.282" fill="url(#linear-gradient-8)"/>
+    <rect id="長方形_46" data-name="長方形 46" width="2" height="1098" transform="translate(679.465 735.771) rotate(45)" opacity="0.523" fill="url(#linear-gradient-15)"/>
+    <rect id="長方形_44" data-name="長方形 44" width="2" height="1733" transform="translate(-256.938 660.914) rotate(-45)" opacity="0.523" fill="url(#linear-gradient-8)"/>
+    <rect id="長方形_42" data-name="長方形 42" width="2" height="1733" transform="translate(390.478 24.343) rotate(45)" fill="url(#linear-gradient-6)"/>
+    <rect id="長方形_49" data-name="長方形 49" width="758" height="1162" transform="translate(2570.658 344.64) rotate(45)" fill="#881b10" opacity="0.221" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <rect id="長方形_50" data-name="長方形 50" width="758" height="1162" transform="translate(-297.513 482.861) rotate(-135)" fill="url(#linear-gradient-18)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <rect id="長方形_48" data-name="長方形 48" width="2" height="1636" transform="translate(547.343 464.673) rotate(135)" opacity="0.268" fill="url(#linear-gradient-19)"/>
+  </g>
+</svg>
