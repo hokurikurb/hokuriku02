@@ -997,19 +997,158 @@ a:hover { color: #555; }
   color: #666;
 }
 
-/* Access Page Styles */
-.access-map {
-  margin: 1.5rem 0;
-  text-align: center;
-}
-
-.access-map a {
+/* Access Section Styles */
+.detail-access-link {
+  font-size: 0.85rem;
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  line-height: 1.5;
+  margin-top: 0.25rem;
   display: inline-block;
-  transition: opacity 0.3s ease;
+  font-weight: 500;
+  transition: color 0.3s ease, opacity 0.3s ease;
 }
 
-.access-map a:hover {
-  opacity: 0.8;
+.detail-access-link:hover {
+  color: #b71c1c;
+  opacity: 0.9;
+}
+
+.hero .detail-access-link {
+  color: #ffe0dd;
+  font-weight: 400;
+}
+
+.hero .detail-access-link:hover {
+  color: #fff;
+}
+
+.map-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--primary-color);
+  background-color: rgba(211, 47, 30, 0.08);
+  border: 1px solid rgba(211, 47, 30, 0.2);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.map-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+.map-link i {
+  font-size: 0.85rem;
+}
+
+.hero .map-link {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.hero .map-link:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.access-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.access-venue-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.access-venue-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.35rem;
+}
+
+.access-venue-name a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  text-underline-offset: 4px;
+  transition: color 0.3s ease;
+}
+
+.access-venue-name a:hover {
+  color: var(--primary-color);
+}
+
+.access-venue-address {
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.access-warning-card {
+  background-color: #fff8f6;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(211, 47, 30, 0.1);
+}
+
+.access-warning-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.access-warning-icon {
+  font-size: 1.75rem;
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.access-warning-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.access-warning-body {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.access-warning-body p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.access-btn-wrap {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 620px) {
+  .access-warning-card {
+    padding: 1.25rem;
+  }
+
+  .access-warning-title {
+    font-size: 1.15rem;
+  }
 }
 
 .subsection-title {
