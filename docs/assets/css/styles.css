@@ -574,7 +574,7 @@ a:hover { color: #555; }
 
 .sponsors-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
   gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
@@ -596,6 +596,11 @@ a:hover { color: #555; }
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-4px);
 }
+
+.sponsor-card.support-ruby-no-kai {
+  grid-column: 2 / 3;
+}
+
 .sponsor-card a{
   text-decoration: none;
 }
